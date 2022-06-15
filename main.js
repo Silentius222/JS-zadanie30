@@ -1,9 +1,3 @@
-let firstNumber = 1;
-let secondNumber = 2;
+let zmienna = document.querySelector('p');
+zmienna.textContent = 'Dowolny tekst :D';
 
-function dodawanie (num1, num2) {
-    let suma = num1 + num2;
-    return suma;
-}
-
-console.log(dodawanie(firstNumber, secondNumber));
